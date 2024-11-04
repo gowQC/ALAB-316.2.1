@@ -1,10 +1,10 @@
 function guessingGame() {
     // variables
     let correctGuess = Math.floor((Math.random() * 100) + 1);
-    console.log(correctGuess);
+    console.log(correctGuess); // our cheat code to know answer
     let maxGuesses = 10;
     let currentGuesses = 0;
-
+    
     while (currentGuesses < maxGuesses) {
         let guesses = document.getElementById("guesses");
         let userGuess = Number(window.prompt("Enter your guess"));
