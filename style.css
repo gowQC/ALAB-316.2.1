@@ -18,4 +18,6 @@ button:hover {
     border-color: #09507c;
     background-color: #deedf2;
 }
-  
+#guesses {
+    border-radius: 25px;
+}
