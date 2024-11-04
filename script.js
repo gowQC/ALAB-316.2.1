@@ -1,4 +1,4 @@
-function guessingGame(num) {
+function guessingGame() {
     // variables
     let correctGuess = Math.floor((Math.random() * 100) + 1);
     console.log(correctGuess);
@@ -25,7 +25,6 @@ function guessingGame(num) {
         if (currentGuesses >= maxGuesses) {
             alert(`Game over! The correct number was ${correctGuess}.`);
             break;
-
         }
     }
 }
